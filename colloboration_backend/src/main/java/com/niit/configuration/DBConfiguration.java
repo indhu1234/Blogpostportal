@@ -28,7 +28,7 @@ import com.niit.model.User;
 public class DBConfiguration {
 	
 	public DBConfiguration(){
-		System.out.println("DBCOnfiguration class instantiated");
+		System.out.println("DBConfiguration class instantiated");
 	}
 	@Bean
 	public SessionFactory sessionFactory() {
@@ -49,7 +49,7 @@ public class DBConfiguration {
 	    dataSource.setDriverClassName("oracle.jdbc.OracleDriver");
 	    dataSource.setUrl("jdbc:oracle:thin:@localhost:1521/orcl");
 	    dataSource.setUsername("hr");
-	    dataSource.setPassword("Admin1234");
+	    dataSource.setPassword("Admin12345");
 	    return dataSource;
 	    
 	}
